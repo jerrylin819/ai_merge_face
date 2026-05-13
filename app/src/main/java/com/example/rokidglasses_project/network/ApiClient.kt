@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
 object ApiClient {
 
     // ✅ 統一的後端服務地址
-    private const val BASE_URL = "http://192.168.158.216:8000"
+    private const val BASE_URL = "http://你的IP位址:8000"
 
     private val logging by lazy {
         HttpLoggingInterceptor().apply {
